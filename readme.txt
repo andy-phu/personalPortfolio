@@ -40,7 +40,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 (c) Advanced features
 -Sticky nav bar 
--Hover effects on projects to link to website/github/youtube
+-Hover effects on projects to link to website/github/youtube and on hover over title
 -Icon in tab bar 
 -Responsive even on ultra wide screen
 -No overflow-x
