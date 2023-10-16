@@ -32,6 +32,16 @@ body,html{
     font-size:60px;
 }
 
+.title:hover{
+    color:rgb(3, 255, 196);
+    opacity: 75%;
+}
+
+
+.title:hover .description{
+    color:rgb(3, 255, 196);
+}
+
 .titleContainer{
     width:50%;
 }
@@ -53,6 +63,9 @@ body,html{
     backdrop-filter: blur(4px);
 }
 
+.logo-container:hover{
+    opacity: 75%;
+}
 .navWrapper{
     position: fixed;
     z-index: 1;
@@ -80,6 +93,7 @@ body,html{
 
 .nav-items a:hover{
     opacity: 75%;
+    color:rgb(3, 255, 196)
 }
 .logo-container{
     display:flex;
@@ -223,6 +237,7 @@ body,html{
 .contactIcons span:hover{
     opacity: 75%;
 }
+
 
 @media (min-width: 425px) {
     .logo-container{
