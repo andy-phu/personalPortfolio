@@ -58,6 +58,8 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 -https://htmlcheatsheet.com/css/
 -https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
 -https://app.netlify.com/sites/keen-taiyaki-9088cd/overview
+-https://medium.com/@kyledeguzmanx/3-basic-elements-you-need-to-include-in-your-htmls-head-tag-bonus-2b6c0c5b5e27
+
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
