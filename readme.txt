@@ -45,6 +45,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 -Responsive even on ultra wide screen
 -No overflow-x
 -Deployed website on Netlify with custom domain name 
+-Mobile has a stacked layout of flex-row and larger screens have a 2 column layout
 
 
 
@@ -65,3 +66,4 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 6. Is there anything special we need to know in order to run your code?
 -Nothing special. 
+-Url: https://phuportfolio.com
