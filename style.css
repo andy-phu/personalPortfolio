@@ -215,7 +215,7 @@ body,html{
     /* change height too 100px for large */
 }
 
-.contactIcons i{
+.contactIcons span{
     font-size: 30px;
     margin-right: 20px;
 }
