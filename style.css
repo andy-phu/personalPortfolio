@@ -241,6 +241,9 @@ body,html{
 }
 
 
+
+/* different screen sizes, some of the font sizes are changed */
+
 @media (min-width: 425px) {
     .logo-container{
         margin-right: 45px;
