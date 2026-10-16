@@ -39,16 +39,13 @@ export default function Home() {
             </div>
             <div className="hero-actions">
               <a className="button button-primary" href="#work">
-                View my work <span aria-hidden="true">↗</span>
+                View my work
               </a>
               <a className="button button-secondary" href="#about">
                 About me
               </a>
             </div>
           </div>
-          <a className="scroll-cue" href="#about" aria-label="Scroll to about">
-            <span aria-hidden="true">↓</span>
-          </a>
         </section>
 
         <section className="section" id="about" aria-labelledby="about-title">
@@ -123,7 +120,7 @@ export default function Home() {
               className="button button-primary"
               href="mailto:andy.phuuu@gmail.com"
             >
-              Get in touch <span aria-hidden="true">↗</span>
+              Get in touch
             </a>
             <a className="contact-email" href="mailto:andy.phuuu@gmail.com">
               andy.phuuu@gmail.com
@@ -134,17 +131,17 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                GitHub <span aria-hidden="true">↗</span>
+                GitHub
               </a>
               <a
                 href="https://www.linkedin.com/in/andyphuu/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                LinkedIn <span aria-hidden="true">↗</span>
+                LinkedIn
               </a>
               <a href="/Andy_Phu_Resume.pdf" target="_blank" rel="noopener">
-                Resume <span aria-hidden="true">↗</span>
+                Resume
               </a>
             </div>
           </div>
@@ -152,7 +149,7 @@ export default function Home() {
       </main>
       <footer className="wrap">
         <span>© {new Date().getFullYear()} Andy Phu</span>
-        <a href="#home">Back to top ↑</a>
+        <a href="#home">Back to top</a>
       </footer>
     </>
   );

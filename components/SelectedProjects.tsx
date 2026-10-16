@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 const projects = [
   {
     title: "OpenHouse",
     description:
       "A furniture discovery app with personalized recommendations powered by embeddings and vector search.",
     tags: ["Go", "Next.js", "Pinecone", "PostgreSQL"],
-    image: null,
+    image: "/images/openhouse-cover.png",
     href: null,
   },
   {
@@ -37,26 +39,17 @@ export default function SelectedProjects() {
   return (
     <div className="project-grid">
       {projects.map((project) => {
-        const cover = project.image ? (
-          <img
+        const cover = (
+          <Image
             src={project.image}
-            alt={`${project.title} website`}
-            loading="lazy"
-            width={1200}
-            height={750}
+            alt={
+              project.title === "OpenHouse"
+                ? "AI-generated interior concept for OpenHouse with sage furniture and natural light"
+                : `${project.title} website`
+            }
+            fill
+            sizes="(max-width: 700px) calc(100vw - 48px), (max-width: 1312px) 42vw, 543px"
           />
-        ) : (
-          <div
-            className="openhouse-cover"
-            aria-label="OpenHouse furniture recommendation project"
-          >
-            <span className="cover-wordmark">
-              openhouse<span>↗</span>
-            </span>
-            <span className="cover-caption">
-              Furniture discovery, made personal.
-            </span>
-          </div>
         );
         return (
           <article className="project" key={project.title} data-reveal>
@@ -68,9 +61,6 @@ export default function SelectedProjects() {
                 rel="noopener noreferrer"
               >
                 {cover}
-                <span className="project-arrow" aria-hidden="true">
-                  ↗
-                </span>
               </a>
             ) : (
               <div className="project-cover">{cover}</div>

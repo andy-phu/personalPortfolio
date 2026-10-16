@@ -250,16 +250,7 @@ h1 {
   border-color: var(--fg);
   color: var(--fg);
 }
-.scroll-cue {
-  position: absolute;
-  bottom: 34px;
-  width: 42px;
-  height: 42px;
-  display: grid;
-  place-items: center;
-  color: #9b9b9b;
-  font-size: 21px;
-}
+
 .section {
   padding-block: 115px;
 }
@@ -371,20 +362,7 @@ h1 {
   transform: scale(1.035);
   opacity: 1;
 }
-.project-arrow {
-  position: absolute;
-  right: 18px;
-  bottom: 18px;
-  height: 34px;
-  width: 34px;
-  display: grid;
-  place-items: center;
-  background: #090909df;
-  color: white;
-  border: 1px solid #ffffff30;
-  border-radius: 50%;
-  font-size: 15px;
-}
+
 .project h3 {
   font-size: 18px;
   font-weight: 500;
@@ -412,33 +390,7 @@ h1 {
   border-radius: 4px;
   color: #aaa;
 }
-.openhouse-cover {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #17221d;
-  color: #d2dfd7;
-}
-.cover-wordmark {
-  font-size: clamp(26px, 3.4vw, 46px);
-  font-weight: 500;
-  letter-spacing: -2px;
-}
-.cover-wordmark > span {
-  font-size: 0.55em;
-  vertical-align: top;
-  margin-left: 8px;
-  color: #7b9c8b;
-}
-.cover-caption {
-  font-size: 10px;
-  margin-top: 16px;
-  letter-spacing: 0.5px;
-  color: #9aaea1;
-}
+
 .archive {
   margin-top: 55px;
   border-top: 1px solid var(--line);
@@ -465,7 +417,7 @@ h1 {
 }
 .archive-row {
   display: grid;
-  grid-template-columns: 1fr 1fr 16px;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
   padding: 18px 0;
   border-top: 1px solid #202020;
@@ -481,13 +433,7 @@ h1 {
   background: #111;
   padding-block: 100px;
 }
-.contact-message {
-  font-size: clamp(26px, 3.2vw, 42px);
-  font-weight: 400;
-  letter-spacing: -1.2px;
-  line-height: 1.4;
-  margin: 28px 0;
-}
+
 .contact-email {
   display: block;
   width: fit-content;
@@ -503,9 +449,7 @@ h1 {
   font-size: 12px;
   color: #b7b7b7;
 }
-.contact-links a span {
-  margin-left: 5px;
-}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -672,9 +616,7 @@ footer {
     padding: 12px 19px;
     gap: 18px;
   }
-  .scroll-cue {
-    bottom: 20px;
-  }
+
   .section {
     padding-block: 70px;
   }
@@ -726,28 +668,19 @@ footer {
     font-size: 17px;
     margin-top: 18px;
   }
-  .cover-wordmark {
-    font-size: 40px;
-  }
+
   .project-cover {
     aspect-ratio: 1.6;
   }
   .archive-row {
-    grid-template-columns: 1fr 16px;
+    grid-template-columns: 1fr;
     gap: 6px;
   }
   .archive-row small {
     grid-column: 1;
     grid-row: 2;
   }
-  .archive-row > span:last-child {
-    grid-column: 2;
-    grid-row: 1;
-  }
-  .contact-message {
-    font-size: 27px;
-    letter-spacing: -0.8px;
-  }
+
   footer {
     font-size: 9px;
     padding-block: 24px;
@@ -772,4 +705,29 @@ footer {
   }
 }
 
-.contact-content > .button { margin-top: 28px; }
+.contact-content > .button {
+  margin-top: 28px;
+}
+
+.project h3 a,
+.contact-links a,
+.contact-email,
+footer a {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 1px;
+  transition:
+    color 0.2s,
+    text-decoration-color 0.2s;
+}
+.project h3 a:hover,
+.contact-links a:hover,
+.contact-email:hover,
+footer a:hover {
+  text-decoration-color: currentColor;
+}
+.archive-row:hover > span {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}

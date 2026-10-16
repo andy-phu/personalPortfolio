@@ -13,7 +13,6 @@ export default function ProjectArchive() {
       >
         <span>Dream Journal, Dream Visualizer</span>
         <small>Django | Google Cloud | CockroachDB</small>
-        <span aria-hidden="true">↗</span>
       </a>
       <a
         className="archive-row"
@@ -23,7 +22,6 @@ export default function ProjectArchive() {
       >
         <span>Who's That Pokemon?</span>
         <small>Angular | CSS | HandTracker.js</small>
-        <span aria-hidden="true">↗</span>
       </a>
       <a
         className="archive-row"
@@ -33,7 +31,6 @@ export default function ProjectArchive() {
       >
         <span>Sleep Tracker Mobile App</span>
         <small>Ionic | Capacitor | Angular | TypeScript | SCSS</small>
-        <span aria-hidden="true">↗</span>
       </a>
       <a
         className="archive-row"
@@ -43,7 +40,6 @@ export default function ProjectArchive() {
       >
         <span>Spotify Browser</span>
         <small>TypeScript | Angular | Node.js | Express | CSS</small>
-        <span aria-hidden="true">↗</span>
       </a>
       <a
         className="archive-row"
@@ -53,7 +49,6 @@ export default function ProjectArchive() {
       >
         <span>AI Checkers</span>
         <small>Python</small>
-        <span aria-hidden="true">↗</span>
       </a>
       <a
         className="archive-row"
@@ -63,7 +58,6 @@ export default function ProjectArchive() {
       >
         <span>Producers & Consumers</span>
         <small>C | POSIX Threads</small>
-        <span aria-hidden="true">↗</span>
       </a>
       <a
         className="archive-row"
@@ -73,7 +67,6 @@ export default function ProjectArchive() {
       >
         <span>Client-Server</span>
         <small>C | Git</small>
-        <span aria-hidden="true">↗</span>
       </a>
       <a
         className="archive-row"
@@ -83,7 +76,6 @@ export default function ProjectArchive() {
       >
         <span>Virtual Memory Simulator</span>
         <small>C | Git</small>
-        <span aria-hidden="true">↗</span>
       </a>
       <a
         className="archive-row"
@@ -93,7 +85,6 @@ export default function ProjectArchive() {
       >
         <span>Shell</span>
         <small>C | Git</small>
-        <span aria-hidden="true">↗</span>
       </a>
       <a
         className="archive-row"
@@ -103,7 +94,6 @@ export default function ProjectArchive() {
       >
         <span>TunnelMan, Video Game</span>
         <small>C++ | C | FreeGlut</small>
-        <span aria-hidden="true">↗</span>
       </a>
     </details>
   );
