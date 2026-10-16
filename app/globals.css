@@ -127,8 +127,6 @@ summary:focus-visible {
   background: var(--fg);
 }
 .hero {
-  isolation: isolate;
-  overflow: hidden;
   min-height: 760px;
   min-height: max(760px, 100svh);
   display: flex;

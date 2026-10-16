@@ -23,7 +23,7 @@ npm start
 
 - `app/page.tsx`: hero, about, experience, tech stack, projects, and contact sections.
 - `components/Navigation.tsx`: active-section navigation, with a mobile bottom bar.
-- `components/Hero.tsx` and `components/Crosshair.tsx`: teal React Bits crosshair scoped to the hero, disabled for touch and reduced motion. Upstream license is in `licenses/react-bits-LICENSE.md`.
+- `components/SiteCrosshair.tsx` and `components/Crosshair.tsx`: teal React Bits crosshair across the full site, disabled for touch and reduced motion. Upstream license is in `licenses/react-bits-LICENSE.md`.
 - `components/MotionEffects.tsx`: progressive scroll reveals with reduced-motion support.
 - `components/ProjectArchive.tsx`: earlier project links.
 - `components/Experience.tsx`: work history and achievements.
