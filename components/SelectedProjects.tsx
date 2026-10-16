@@ -52,7 +52,12 @@ export default function SelectedProjects() {
           />
         );
         return (
-          <article className="project" key={project.title} data-reveal>
+          <article
+            className="project"
+            key={project.title}
+            data-reveal
+            data-crosshair-target
+          >
             {project.href ? (
               <a
                 className="project-cover"

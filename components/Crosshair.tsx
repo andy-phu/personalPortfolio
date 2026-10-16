@@ -419,7 +419,10 @@ const Crosshair = ({
         return null;
       let found: Element | null = null;
       try {
-        found = element.closest(s.targetSelector);
+        found =
+          element.closest("a, button, summary") ??
+          element.closest("[data-crosshair-target]") ??
+          element.closest(s.targetSelector);
       } catch {
         found = null;
       }

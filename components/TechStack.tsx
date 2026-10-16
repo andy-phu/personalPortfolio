@@ -21,7 +21,12 @@ export default function TechStack() {
   return (
     <ul className="tools-grid" aria-label="Tools and technologies">
       {tools.map((tool) => (
-        <li className="tool-tile" key={tool.name} data-reveal>
+        <li
+          className="tool-tile"
+          key={tool.name}
+          data-reveal
+          data-crosshair-target
+        >
           <div className="tool-icon">
             <img
               src={`/logos/${tool.icon}`}

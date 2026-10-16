@@ -5,7 +5,12 @@ const experiences = [
     year: "2025 – Present",
     location: "San Francisco, CA",
   },
-  { company: "GEICO", role: "Software Engineer", year: "2025", location: "Remote" },
+  {
+    company: "GEICO",
+    role: "Software Engineer",
+    year: "2025",
+    location: "Remote",
+  },
   {
     company: "BlackRock",
     role: "Software Engineer Intern",
@@ -54,7 +59,12 @@ export default function Experience() {
   return (
     <div className="experience-list">
       {experiences.map((job) => (
-        <article className="experience-entry" key={job.company} data-reveal>
+        <article
+          className="experience-entry"
+          key={job.company}
+          data-reveal
+          data-crosshair-target
+        >
           <div className="experience-primary">
             <h3>{job.company}</h3>
             <span>{job.year}</span>

@@ -23,7 +23,7 @@ export default function SiteCrosshair() {
       fade={0.65}
       gap={8}
       smoothing={0.2}
-      targetSelector="a, button, summary, [data-crosshair-target]"
+      targetSelector="a, button, summary, [data-crosshair-target], h1, h2, h3, h4, h5, h6, p, li, img, span, article, footer"
     />
   ) : null;
 }
