@@ -3,9 +3,9 @@ const experiences = [
     company: "Uber",
     role: "Software Engineer",
     year: "2025 – Present",
-    location: "",
+    location: "San Francisco, CA",
   },
-  { company: "GEICO", role: "Software Engineer", year: "2025", location: "" },
+  { company: "GEICO", role: "Software Engineer", year: "2025", location: "Remote" },
   {
     company: "BlackRock",
     role: "Software Engineer Intern",
