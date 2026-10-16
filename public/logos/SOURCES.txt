@@ -1,0 +1,15 @@
+Tool logos are used to identify the technologies in Andy Phu's portfolio.
+
+Go, Python, Java, TypeScript, React, Next.js, C#, PostgreSQL, Redis,
+Apache Kafka, Docker, Kubernetes, Apache Spark, AWS, PyTorch:
+https://github.com/devicons/devicon
+MIT license reproduced in LICENSE-devicon.txt. Brands remain owned by their respective owners.
+AWS lettering is lightened for contrast on the dark background.
+
+Go gopher: created by Renee French, used via Devicon's go-original.svg.
+https://go.dev/blog/gopher
+Licensed under Creative Commons Attribution 4.0:
+https://creativecommons.org/licenses/by/4.0/
+Displayed without changes to the artwork.
+
+SQL: a generic database symbol drawn for this portfolio; not a brand logo.

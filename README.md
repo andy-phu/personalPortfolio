@@ -21,12 +21,14 @@ npm start
 
 ## Content
 
-- `app/page.tsx`: hero, about, experience, projects, and contact sections.
+- `app/page.tsx`: hero, about, experience, tech stack, projects, and contact sections.
 - `components/Navigation.tsx`: active-section navigation, with a mobile bottom bar.
 - `components/MotionEffects.tsx`: progressive scroll reveals with reduced-motion support.
 - `components/ProjectArchive.tsx`: earlier project links.
 - `components/Experience.tsx`: work history and achievements.
 - `components/SelectedProjects.tsx`: featured project links and screenshots.
+- `components/TechStack.tsx`: individual technology logos and labels.
+- `public/logos/SOURCES.txt`: logo sources and attribution.
 - `app/globals.css`: responsive dark theme, self-hosted Inter font, and entrance animations.
 - `public/Andy_Phu_Resume.pdf`: downloadable resume.
 

@@ -1,3 +1,5 @@
+import Image from "next/image";
+import TechStack from "@/components/TechStack";
 import Navigation from "@/components/Navigation";
 import Experience from "@/components/Experience";
 import SelectedProjects from "@/components/SelectedProjects";
@@ -49,12 +51,12 @@ export default function Home() {
         </section>
 
         <section className="section" id="about" aria-labelledby="about-title">
-          <div className="wrap section-layout">
-            <h2 className="eyebrow section-title" id="about-title" data-reveal>
-              About me
-            </h2>
-            <div className="about-grid">
+          <div className="wrap">
+            <div className="about-content">
               <div className="about-copy" data-reveal>
+                <h2 className="eyebrow section-title" id="about-title">
+                  About me
+                </h2>
                 <p>
                   I’m Andy, a software engineer at Uber working on distributed
                   systems and machine learning infrastructure.
@@ -65,16 +67,15 @@ export default function Home() {
                   Learning.
                 </p>
               </div>
-              <div className="skills" data-reveal>
-                <h3 className="eyebrow">Tools I work with</h3>
-                <ul>
-                  <li>Go, Python, Java & TypeScript</li>
-                  <li>React, Next.js & FastAPI</li>
-                  <li>PostgreSQL, Redis & Kafka</li>
-                  <li>Docker & Kubernetes</li>
-                  <li>Apache Spark & XGBoost</li>
-                  <li>SQL & PyTorch</li>
-                </ul>
+              <div className="about-photo" data-reveal>
+                <Image
+                  src="/images/andy-phu.jpg"
+                  alt="Andy Phu by the ocean at sunset"
+                  width={1231}
+                  height={1601}
+                  unoptimized
+                  className="about-portrait"
+                />
               </div>
             </div>
           </div>
@@ -94,6 +95,22 @@ export default function Home() {
               My experience
             </h2>
             <Experience />
+          </div>
+        </section>
+
+        <section
+          className="section tools-section"
+          id="tools"
+          aria-labelledby="tools-title"
+        >
+          <div className="wrap">
+            <h2 className="eyebrow section-title" id="tools-title" data-reveal>
+              Tech stack
+            </h2>
+            <TechStack />
+            <p className="tool-credits">
+              <a href="/logos/SOURCES.txt">Logo credits</a>
+            </p>
           </div>
         </section>
 

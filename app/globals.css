@@ -266,10 +266,12 @@ h1 {
   margin-bottom: 0;
   padding-top: 4px;
 }
-.about-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
-  gap: 48px;
+
+.about-copy {
+  max-width: 680px;
+}
+.about-copy .section-title {
+  margin-bottom: 25px;
 }
 .about-copy p {
   color: #c1c1c1;
@@ -280,20 +282,7 @@ h1 {
   margin-top: 23px;
   color: var(--muted);
 }
-.skills .eyebrow {
-  font-size: 11px;
-  margin-bottom: 22px;
-}
-.skills ul {
-  margin: 0;
-  padding-left: 15px;
-  color: var(--muted);
-  font-size: 12px;
-  line-height: 2.6;
-}
-.skills li::marker {
-  color: #5c5c5c;
-}
+
 .experience-section {
   background: var(--surface);
 }
@@ -507,17 +496,7 @@ footer {
     grid-template-columns: 140px minmax(0, 1fr);
     gap: 35px;
   }
-  .about-grid {
-    grid-template-columns: 1fr;
-    gap: 35px;
-  }
-  .skills ul {
-    columns: 2;
-    column-gap: 24px;
-  }
-  .skills li {
-    break-inside: avoid;
-  }
+
   .hero {
     min-height: max(700px, 100svh);
   }
@@ -637,12 +616,7 @@ footer {
     font-size: 14px;
     line-height: 1.85;
   }
-  .about-grid {
-    gap: 30px;
-  }
-  .skills ul {
-    font-size: 11px;
-  }
+
   .experience-entry {
     margin-bottom: 24px;
     padding-bottom: 24px;
@@ -730,4 +704,94 @@ footer a:hover {
 .archive-row:hover > span {
   text-decoration: underline;
   text-underline-offset: 5px;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 230px;
+  gap: 48px;
+  align-items: center;
+}
+.about-portrait {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+@media (max-width: 900px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .about-photo {
+    max-width: 240px;
+  }
+}
+.tools-section {
+  border-bottom: 1px solid #202020;
+}
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tool-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+  min-height: 142px;
+  padding: 25px 12px;
+  background: #111;
+  border: 1px solid #262626;
+  border-radius: 5px;
+}
+.tool-tile > span {
+  font-size: 12px;
+  color: #c6c6c6;
+  line-height: 1.5;
+}
+.tool-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+}
+.tool-icon img {
+  display: block;
+  object-fit: contain;
+  max-width: 100%;
+}
+.tool-monochrome {
+  filter: brightness(0) invert(1);
+}
+.tool-credits {
+  margin-top: 20px;
+  color: var(--muted);
+  font-size: 10px;
+  text-align: right;
+}
+.tool-credits a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+@media (max-width: 700px) {
+  .tools-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .tool-tile {
+    min-height: 132px;
+    padding: 22px 10px;
+  }
+  .tool-tile > span {
+    font-size: 11px;
+  }
+  .section-nav .nav-label {
+    font-size: 8px;
+  }
 }
