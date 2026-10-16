@@ -119,11 +119,6 @@ export default function Home() {
             <h2 className="eyebrow" id="contact-title">
               Let’s connect
             </h2>
-            <p className="contact-message">
-              Have a project in mind?
-              <br />
-              I’d love to hear about it.
-            </p>
             <a
               className="button button-primary"
               href="mailto:andy.phuuu@gmail.com"
