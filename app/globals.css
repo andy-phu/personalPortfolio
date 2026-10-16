@@ -526,7 +526,7 @@ footer {
     scroll-padding-top: 30px;
   }
   body {
-    padding-bottom: 62px;
+    padding-bottom: calc(62px + env(safe-area-inset-bottom));
   }
   .wrap {
     width: calc(100% - 48px);
@@ -796,6 +796,6 @@ footer a:hover {
     font-size: 11px;
   }
   .section-nav .nav-label {
-    font-size: 8px;
+    font-size: 9px;
   }
 }
