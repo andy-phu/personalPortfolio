@@ -1,0 +1,1 @@
+export default function Navigation() {return <header className="nav wrap"><a className="wordmark" href="#home">Andy Phu<span>.</span></a><nav aria-label="Main navigation"><a href="#experience">Experience</a><a href="#work">Projects</a><a href="#contact">Contact</a></nav></header>;}
