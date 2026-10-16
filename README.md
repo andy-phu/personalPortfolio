@@ -25,6 +25,7 @@ npm start
 - `components/Navigation.tsx`: active-section navigation, with a mobile bottom bar.
 - `components/SiteCrosshair.tsx` and `components/Crosshair.tsx`: teal React Bits crosshair across the full site, disabled for touch and reduced motion. Upstream license is in `licenses/react-bits-LICENSE.md`.
 - `components/MotionEffects.tsx`: progressive scroll reveals with reduced-motion support.
+- `components/HeroParticles.tsx` and `components/Particles.jsx`: React Bits particle background using the supplied white-particle configuration; pauses for reduced motion and when out of view.
 - `components/ProjectArchive.tsx`: earlier project links.
 - `components/Experience.tsx`: work history and achievements.
 - `components/SelectedProjects.tsx`: featured project links and screenshots.

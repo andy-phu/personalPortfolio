@@ -1,4 +1,5 @@
 import Image from "next/image";
+import HeroParticles from "@/components/HeroParticles";
 import SiteCrosshair from "@/components/SiteCrosshair";
 import TechStack from "@/components/TechStack";
 import Navigation from "@/components/Navigation";
@@ -18,6 +19,7 @@ export default function Home() {
       <SiteCrosshair />
       <main id="main">
         <section className="hero" id="home" aria-labelledby="hero-title">
+          <HeroParticles />
           <div className="hero-content">
             <p className="eyebrow hero-label">Software engineer</p>
             <h1
@@ -111,9 +113,6 @@ export default function Home() {
               Tech stack
             </h2>
             <TechStack />
-            <p className="tool-credits">
-              <a href="/logos/SOURCES.txt">Logo credits</a>
-            </p>
           </div>
         </section>
 
