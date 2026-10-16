@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Hero from "@/components/Hero";
 import TechStack from "@/components/TechStack";
 import Navigation from "@/components/Navigation";
 import Experience from "@/components/Experience";
@@ -15,7 +16,7 @@ export default function Home() {
       <Navigation />
       <MotionEffects />
       <main id="main">
-        <section className="hero" id="home" aria-labelledby="hero-title">
+        <Hero>
           <div className="hero-content">
             <p className="eyebrow hero-label">Software engineer</p>
             <h1
@@ -48,7 +49,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-        </section>
+        </Hero>
 
         <section className="section" id="about" aria-labelledby="about-title">
           <div className="wrap">
