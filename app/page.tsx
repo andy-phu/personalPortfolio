@@ -56,8 +56,8 @@ export default function Home() {
             <div className="about-grid">
               <div className="about-copy" data-reveal>
                 <p>
-                  I’m Andy, a software engineer at Uber working on backend
-                  systems, data pipelines, and machine learning.
+                  I’m Andy, a software engineer at Uber working on distributed
+                  systems and machine learning infrastructure.
                 </p>
                 <p>
                   Previously at GEICO and BlackRock. I graduated from UC Irvine
