@@ -22,6 +22,7 @@ export default function Home() {
             <p className="eyebrow hero-label">Software engineer</p>
             <h1
               id="hero-title"
+              data-crosshair-target
               aria-label="Building intelligent, scalable systems."
             >
               <span className="headline-line" aria-hidden="true">

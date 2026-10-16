@@ -139,6 +139,11 @@ summary:focus-visible {
 .hero-content {
   width: 100%;
 }
+.hero h1 {
+  width: fit-content;
+  max-width: 100%;
+  margin-inline: auto;
+}
 .eyebrow {
   font-size: 12px;
   font-weight: 400;
