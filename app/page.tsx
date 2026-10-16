@@ -9,8 +9,7 @@ return <>
 <section className="intro" id="home">
 <h1>Hey, I’m <span>Andy Phu.</span></h1>
 <p className="intro-role">Software Engineer at Uber</p>
-<p>I work on backend systems, data pipelines, and machine learning. Previously at GEICO and BlackRock. I graduated from UC Irvine with a degree in Computer Science and a concentration in Machine Learning.</p>
-<div className="links"><a href="mailto:andy.phuuu@gmail.com">Email ↗</a><a href="https://github.com/andy-phu" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/andyphuu/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="/Andy_Phu_Resume.pdf" target="_blank" rel="noopener">Resume ↗</a></div>
+<p>Building intelligent, scalable systems.</p>
 </section>
 <section className="section" id="experience"><h2>Experience</h2><Experience /></section>
 <section className="section" id="work"><h2>Projects</h2>
@@ -136,6 +135,6 @@ return <>
           </details>
 </section>
 <section className="section" id="about"><h2>Skills & education</h2><div className="about-grid"><div className="skills"><h3>Languages</h3><p>Go, Python, Java, TypeScript, SQL, C++</p><h3>Systems & data</h3><p>Docker, Kubernetes, Kafka, Spark, PostgreSQL, Redis</p><h3>Web & machine learning</h3><p>React, Next.js, FastAPI, PyTorch, XGBoost</p></div><div className="education"><h3>University of California, Irvine</h3><p>B.S. Computer Science<br />Machine Learning concentration</p><p>Graduated December 2024</p></div></div></section>
-<section className="section contact" id="contact"><h2>Get in touch</h2><p>Feel free to reach out about software, projects, or opportunities to work together.</p><a href="mailto:andy.phuuu@gmail.com">andy.phuuu@gmail.com ↗</a></section>
+<section className="section contact" id="contact"><h2>Get in touch</h2><p>Feel free to reach out about software, projects, or opportunities to work together.</p><a href="mailto:andy.phuuu@gmail.com">andy.phuuu@gmail.com ↗</a><div className="links"><a href="https://github.com/andy-phu" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/andyphuu/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="/Andy_Phu_Resume.pdf" target="_blank" rel="noopener">Resume ↗</a></div></section>
 </main><footer className="wrap"><span>© {new Date().getFullYear()} Andy Phu</span><a href="#home">Back to top ↑</a></footer></>;
 }
